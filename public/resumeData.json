@@ -3,7 +3,7 @@
     "name":"Mathew Esporas",
     "occupation":"Software Engineer",
     "description":"I create websites and software that solves problems and helps people",
-    "image":"profilepic.jpg",
+    "image":"/tech/Git.png",
     "bio":"I am a tinkerer am a software engineer that loves to learn and improve. My passion is to create software that solves problems and helps people. ",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "mesporas1@gmail.com",
@@ -14,8 +14,8 @@
       "state":"(Your State)",
       "zip": "(Your Zip/Postal Code)"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "http://mathewesporas.com",
+    "resumedownload":"http://mathewesporas.com",
     "social":[
       {
         "name":"linkedin",
@@ -56,31 +56,43 @@
     "skills":[
       {
         "name":"Git",
-        "level":"60%"
+        "description":"Git keeps you sane%",
+        "image":"Git-logo.png"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"Python",
+        "description":"I really like python",
+        "image":"python-logo.png"
       },
       {
         "name":"ReactJs",
-        "level":"50%"
+        "description":"I really like react",
+        "image":"react-logo.png"
       },
       {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"VueJs",
-        "level":"50%"
+        "name":"Javascript",
+        "description":"I really like js",
+        "image":"js-logo.png"
       },
       {
         "name":"MongoDB",
-        "level":"80%"
+        "description":"I really like mongodb",
+        "image":"mongodb-logo.png"
+      },
+      {
+        "name":"postgreSQL",
+        "description":"I really like sql",
+        "image":"postgresql-logo.png"
+      },
+      {
+        "name":"Linux",
+        "description":"I really like linux",
+        "image":"linux-logo.png"
+      },
+      {
+        "name":"AWS",
+        "description":"I really like aws",
+        "image":"aws-logo.png"
       }
     ]
   },
