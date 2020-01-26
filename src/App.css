@@ -4,3 +4,7 @@
     padding-left:2em;
     padding-right:2em;
   }
+
+  .center, .feature-item {
+    text-align: center;
+}
