@@ -1,1 +1,0 @@
-{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,cACI,iBAAkB,CAClB,gBAAgB,CAChB,gBAAgB,CAChB,iBACF","file":"main.8baaa22b.chunk.css","sourcesContent":[".feature-item{\n    text-align: center;\n    margin-top:2.5em;\n    padding-left:2em;\n    padding-right:2em;\n  }"]}
