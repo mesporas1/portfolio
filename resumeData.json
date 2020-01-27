@@ -3,18 +3,9 @@
     "firstname":"Mathew",
     "lastname":"Esporas",
     "occupation":"Software Engineer",
-    "description":"",
     "image":"profilepic.jpg",
     "bio":"I am a software engineer with a passion for solving problems and helping people. I have experience using a wide variety of technologies such as Python, Javascript, SQL, Linux, and more. Feel free to reach out through my email or Linkedin!",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "mesporas1@gmail.com",
-    "phone": "555-555-5555",
-    "address":{
-      "street":"(Your Street)",
-      "city":"So Cal",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
-    },
     "website": "http://mathewesporas.com",
     "resumedownload":"files/MathewEsporas-Resume.pdf",
     "social":[
@@ -62,62 +53,50 @@
     "skills":[
       {
         "name":"Git",
-        "description":"Git keeps you sane%",
         "image":"Git-logo.png"
       },
       {
         "name":"Github",
-        "description":"Git keeps you sane%",
         "image":"github-logo.png"
       },
       {
         "name":"Linux",
-        "description":"I really like linux",
         "image":"linux-logo.png"
       },
       {
         "name":"AWS",
-        "description":"I really like aws",
         "image":"aws-logo.png"
       },
       {
         "name":"Javascript",
-        "description":"I really like js",
         "image":"js-logo.png"
       },
       {
         "name":"Node.js",
-        "description":"I really like js",
         "image":"node-js-logo.png"
       },
       {
         "name":"ReactJs",
-        "description":"I really like react",
         "image":"react-logo.png"
       },
       {
         "name":"MongoDB",
-        "description":"I really like mongodb",
         "image":"mongodb-logo.png"
       },
       {
         "name":"Python",
-        "description":"I really like python",
         "image":"python-logo.png"
       },
       {
         "name":"Django",
-        "description":"I really like js",
         "image":"django-logo.png"
       },
       {
         "name":"Flask",
-        "description":"I really like sql",
         "image":"flask-logo.png"
       },
       {
         "name":"PostgreSQL",
-        "description":"I really like sql",
         "image":"postgresql-logo.png"
       }
       
@@ -130,7 +109,7 @@
         "category": "Personal",
         "description":"Application to categorize transactions when their posted using Plaid API",
         "image":"budgetting.jpg",
-        "languages":["mongoDB", "Express", "React", "NodeJS", "AWS"],
+        "languages":["mongoDB", "React", "NodeJS"],
         "url":""
       },
       {
@@ -146,7 +125,7 @@
         "category": "Class",
         "description":"Single page application that allows users to talk to others in a channel utilizing Flask's Socket Library",
         "image":"chat-project.jpg",
-        "languages":["Python", "Flask", "Javascript", "HTML", "CSS"],
+        "languages":["Python", "Flask", "Javascript"],
         "url":"https://github.com/mesporas1/chat-application"
       },
       {
@@ -156,18 +135,6 @@
         "image":"portfolio.jpg",
         "languages":["React", "HTML", "CSS", "Javascript"],
         "url":"https://www.mathewesporas.com"
-      }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
       }
     ]
   }
