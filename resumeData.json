@@ -110,7 +110,7 @@
         "description":"Application to categorize transactions when their posted using Plaid API",
         "image":"budgetting.jpg",
         "languages":["mongoDB", "React", "NodeJS"],
-        "url":""
+        "url":"https://github.com/mesporas1/budgeting-app"
       },
       {
         "title":"Pizza Website",

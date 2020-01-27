@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,cAEI,gBAAgB,CAChB,gBAAgB,CAChB,iBACF,CAEA,sBANE,iBAQJ","file":"main.eec6f621.chunk.css","sourcesContent":[".feature-item{\n    text-align: center;\n    margin-top:2.5em;\n    padding-left:2em;\n    padding-right:2em;\n  }\n\n  .center, .feature-item {\n    text-align: center;\n}"]}
