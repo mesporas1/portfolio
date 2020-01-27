@@ -5,7 +5,7 @@
     "occupation":"Software Engineer",
     "description":"",
     "image":"profilepic.jpg",
-    "bio":"I am a tinkerer am a software engineer that loves to learn and improve. My passion is to create software that solves problems and helps people. ",
+    "bio":"I am a software engineer with a passion for solving problems and helping people. I have experience using a wide variety of technologies such as Python, Javascript, SQL, Linux, and more. Feel free to reach out through my email or Linkedin!",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "mesporas1@gmail.com",
     "phone": "555-555-5555",
@@ -24,6 +24,11 @@
         "className":"fa fa-linkedin"
       },
       {
+        "name":"email",
+        "url":"mailto:mesporas1@gmail.com",
+        "className":"fa fa-envelope"
+      },
+      {
         "name":"github",
         "url":"https://github.com/mesporas1",
         "className":"fa fa-github"
@@ -31,13 +36,13 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here are the skills that I've used in work and in projects",
+    "skillmessage":"Here are the skills that I've used at work and in projects",
     "education":[
       {
         "school":"University of California Irvine",
         "degree":"Bachelors of Science in Electrical Engineering",
         "graduated":"July 2016",
-        "description":"Specialized in Digital Signal Processing"
+        "descriptions":["Specialized in Digital Signal Processing"]
       }
     ],
     "work":[
@@ -45,13 +50,13 @@
         "company":"Panasonic Avionics",
         "title":"Software Integration Test Engineer",
         "years":"June 2016 to present",
-        "description":"I integrate, test, and debug inflight entertainment systems. Most of the entertainment systems that you see on airplanes is owned by PAC. I have learned a lot about how systems work together and communicate with one another and have improved my skills at troubleshooting and testing."
+        "descriptions":["Test and integrate web and mobile streaming applications for airlines around the world","Utilize Linux commands and tools to debug inflight entertainment systems","Configure systems according to wiring diagrams and customer requirements", "Demonstrate performance and functionality of systems to customers"]
       },
       {
         "company":"Broadcom Inc.",
         "title":"Engineering Intern",
         "years":"Jun 2015 - May 2016",
-        "description":"At Broadcom, I tested many different Broadcom Ethernet products using oscilloscopes and network analyzers. I began my career of testing and was challenged to question how and why anything worked."
+        "descriptions":["Test multiple Broadcom Ethernet products for quality assurance and durability", "Operated various electrical equipment including oscilloscopes and network analyzers"]
       }
     ],
     "skills":[
@@ -61,29 +66,9 @@
         "image":"Git-logo.png"
       },
       {
-        "name":"Python",
-        "description":"I really like python",
-        "image":"python-logo.png"
-      },
-      {
-        "name":"ReactJs",
-        "description":"I really like react",
-        "image":"react-logo.png"
-      },
-      {
-        "name":"Javascript",
-        "description":"I really like js",
-        "image":"js-logo.png"
-      },
-      {
-        "name":"MongoDB",
-        "description":"I really like mongodb",
-        "image":"mongodb-logo.png"
-      },
-      {
-        "name":"postgreSQL",
-        "description":"I really like sql",
-        "image":"postgresql-logo.png"
+        "name":"Github",
+        "description":"Git keeps you sane%",
+        "image":"github-logo.png"
       },
       {
         "name":"Linux",
@@ -94,7 +79,48 @@
         "name":"AWS",
         "description":"I really like aws",
         "image":"aws-logo.png"
+      },
+      {
+        "name":"Javascript",
+        "description":"I really like js",
+        "image":"js-logo.png"
+      },
+      {
+        "name":"Node.js",
+        "description":"I really like js",
+        "image":"node-js-logo.png"
+      },
+      {
+        "name":"ReactJs",
+        "description":"I really like react",
+        "image":"react-logo.png"
+      },
+      {
+        "name":"MongoDB",
+        "description":"I really like mongodb",
+        "image":"mongodb-logo.png"
+      },
+      {
+        "name":"Python",
+        "description":"I really like python",
+        "image":"python-logo.png"
+      },
+      {
+        "name":"Django",
+        "description":"I really like js",
+        "image":"django-logo.png"
+      },
+      {
+        "name":"Flask",
+        "description":"I really like sql",
+        "image":"flask-logo.png"
+      },
+      {
+        "name":"PostgreSQL",
+        "description":"I really like sql",
+        "image":"postgresql-logo.png"
       }
+      
     ]
   },
   "portfolio":{
@@ -104,13 +130,13 @@
         "category": "Personal",
         "description":"Application to categorize transactions when their posted using Plaid API",
         "image":"budgetting.jpg",
-        "languages":["NodeJS", "mongoDB", "AWS", "React"],
+        "languages":["mongoDB", "Express", "React", "NodeJS", "AWS"],
         "url":""
       },
       {
         "title":"Pizza Website",
         "category": "Class",
-        "description":"Allows users to order pizza and for admins to update menu utilizing Django Admin system",
+        "description":"Website that allows users to order menu items and for admins to update menu utilizing Django Admin system",
         "image":"pizza-site.jpg",
         "languages":["Python", "Django", "HTML", "CSS"],
         "url":"https://github.com/mesporas1/Pizza-Site"
@@ -118,10 +144,18 @@
       {
         "title":"Chat Application",
         "category": "Class",
-        "description":"Single page application that allows users to talk to others in a channel utilizing Flask Sockets",
+        "description":"Single page application that allows users to talk to others in a channel utilizing Flask's Socket Library",
         "image":"chat-project.jpg",
         "languages":["Python", "Flask", "Javascript", "HTML", "CSS"],
         "url":"https://github.com/mesporas1/chat-application"
+      },
+      {
+        "title":"Portfolio",
+        "category": "Personal",
+        "description":"Single page application that allows users to view my projects and work history",
+        "image":"portfolio.jpg",
+        "languages":["React", "HTML", "CSS", "Javascript"],
+        "url":"https://www.mathewesporas.com"
       }
     ]
   },

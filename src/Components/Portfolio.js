@@ -36,7 +36,7 @@ class Portfolio extends Component {
 
       <div className="row projects-content">
 
-            <h1>Check Out Some of My Works.</h1>
+            <h1>Check Out Some of My Projects.</h1>
 
             
                 {projects}
