@@ -105,10 +105,10 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Budgetting Application",
+        "title":"Budgeting Application",
         "category": "Personal",
-        "description":"Application to categorize transactions when their posted using Plaid API",
-        "image":"budgetting.jpg",
+        "description":"Application to categorize transactions when posted using Plaid API",
+        "image":"budgeting.jpg",
         "languages":["mongoDB", "React", "NodeJS"],
         "url":"https://github.com/mesporas1/budgeting-app"
       },
