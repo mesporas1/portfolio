@@ -107,7 +107,7 @@
       {
         "title":"Budgeting Application",
         "category": "Personal",
-        "description":"Application to categorize transactions when posted using Plaid API",
+        "description":"Application to categorize transactions when posted using the Plaid API",
         "image":"budgeting.jpg",
         "languages":["mongoDB", "React", "NodeJS"],
         "url":"https://github.com/mesporas1/budgeting-app"
@@ -115,7 +115,7 @@
       {
         "title":"Pizza Website",
         "category": "Class",
-        "description":"Website that allows users to order menu items and for admins to update menu utilizing Django Admin system",
+        "description":"Website that allows users to order menu items and admins to update menu utilizing Django Admin system",
         "image":"pizza-site.jpg",
         "languages":["Python", "Django", "HTML", "CSS"],
         "url":"https://github.com/mesporas1/Pizza-Site"
