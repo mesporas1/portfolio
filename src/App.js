@@ -17,10 +17,10 @@ class App extends Component {
     };
 
   }
-
+  
   getResumeData(){
     $.ajax({
-      url:'/resumeData.json',
+      url:'https://mathewesporas.com/resumeData.json',
       dataType:'json',
       cache: false,
       crossDomain:true,
