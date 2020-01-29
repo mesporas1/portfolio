@@ -24,6 +24,9 @@ class App extends Component {
       dataType:'json',
       cache: false,
       crossDomain:true,
+      xhrFields: {
+        withCredientials: true
+      },
       success: function(data){
         this.setState({resumeData: data});
       }.bind(this),
