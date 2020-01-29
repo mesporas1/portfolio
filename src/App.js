@@ -20,7 +20,7 @@ class App extends Component {
   
   getResumeData(){
     $.ajax({
-      url:'https://mathewesporas.com/resumeData.json',
+      url:'/resumeData.json',
       dataType:'json',
       cache: false,
       crossDomain:true,
