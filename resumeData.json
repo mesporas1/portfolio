@@ -64,8 +64,8 @@
         "image":"linux-logo.png"
       },
       {
-        "name":"AWS",
-        "image":"aws-logo.png"
+        "name":"Heroku",
+        "image":"heroku-logo.png"
       },
       {
         "name":"Javascript",
@@ -110,7 +110,7 @@
         "description":"Application to categorize transactions when posted using the Plaid API",
         "image":"budgeting.jpg",
         "languages":["mongoDB", "React", "NodeJS"],
-        "url":"https://github.com/mesporas1/budgeting-app"
+        "url":"https://github.com/mesporas1/budgetmatters"
       },
       {
         "title":"Pizza Website",
