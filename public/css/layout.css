@@ -1046,3 +1046,6 @@ footer .social-links li:first-child { margin-left: 0; }
    z-index: 500;
 }
 
+ol, ul {
+   margin-left: 1.7rem;
+}
