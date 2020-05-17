@@ -42,10 +42,10 @@
         "title": "Software Integration Test Engineer",
         "years": "June 2016 to present",
         "descriptions": [
-          "Test and integrate web and mobile streaming applications for airlines around the world",
-          "Utilize Linux commands and tools to debug inflight entertainment systems",
-          "Configure systems according to wiring diagrams and customer requirements",
-          "Demonstrate performance and functionality of systems to customers"
+          "Conduct end-to-end tests on Inflight Entertainment (IFE) systems and create software builds for airlines",
+          "Troubleshoot and debug software issues on Linux based embedded systems",
+          "Create automation scripts using BASH commands and PAC’s internal tools",
+          "Configure systems according to wiring diagrams and customer requirements"
         ]
       },
       {
