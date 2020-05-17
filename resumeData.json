@@ -1,140 +1,163 @@
 {
   "main": {
-    "firstname":"Mathew",
-    "lastname":"Esporas",
-    "occupation":"Software Engineer",
-    "image":"profilepic.jpg",
-    "bio":"I am a software engineer with a passion for solving problems and for helping people. I have experience using a wide variety of technologies such as Python, Javascript, SQL, Linux, and more. Feel free to reach out through my email or Linkedin!",
+    "firstname": "Mathew",
+    "lastname": "Esporas",
+    "occupation": "Software Engineer",
+    "image": "profilepic.jpg",
+    "bio": "I am an aspiring Software Engineer with a passion for identifying and solving problems which drives my desire to learn. I learn new technologies in order to better solve the problems that I see on a day to day basis. I have experience using a wide variety of technologies such as Python, Javascript, SQL, Linux, and more. Feel free to reach out through my email or Linkedin!",
     "email": "mesporas1@gmail.com",
     "website": "http://mathewesporas.com",
-    "resumedownload":"files/MathewEsporas-Resume.pdf",
-    "social":[
+    "resumedownload": "files/MathewEsporas-Resume.pdf",
+    "social": [
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/mathew-esporas-566b45a0",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/mathew-esporas-566b45a0",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"email",
-        "url":"mailto:mesporas1@gmail.com",
-        "className":"fa fa-envelope"
+        "name": "email",
+        "url": "mailto:mesporas1@gmail.com",
+        "className": "fa fa-envelope"
       },
       {
-        "name":"github",
-        "url":"https://github.com/mesporas1",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/mesporas1",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here are the skills that I've used at work and in projects",
-    "education":[
+  "resume": {
+    "skillmessage": "Here are the skills that I've used at work and in projects",
+    "education": [
       {
-        "school":"University of California Irvine",
-        "degree":"Bachelors of Science in Electrical Engineering",
-        "graduated":"July 2016",
-        "descriptions":["Specialized in Digital Signal Processing"]
+        "school": "University of California Irvine",
+        "degree": "Bachelors of Science in Electrical Engineering",
+        "graduated": "July 2016",
+        "descriptions": ["Specialized in Digital Signal Processing"]
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Panasonic Avionics",
-        "title":"Software Integration Test Engineer",
-        "years":"June 2016 to present",
-        "descriptions":["Test and integrate web and mobile streaming applications for airlines around the world","Utilize Linux commands and tools to debug inflight entertainment systems","Configure systems according to wiring diagrams and customer requirements", "Demonstrate performance and functionality of systems to customers"]
+        "company": "Panasonic Avionics",
+        "title": "Software Integration Test Engineer",
+        "years": "June 2016 to present",
+        "descriptions": [
+          "Test and integrate web and mobile streaming applications for airlines around the world",
+          "Utilize Linux commands and tools to debug inflight entertainment systems",
+          "Configure systems according to wiring diagrams and customer requirements",
+          "Demonstrate performance and functionality of systems to customers"
+        ]
       },
       {
-        "company":"Broadcom Inc.",
-        "title":"Engineering Intern",
-        "years":"Jun 2015 - May 2016",
-        "descriptions":["Test multiple Broadcom Ethernet products for quality assurance and durability", "Operated various electrical equipment including oscilloscopes and network analyzers"]
+        "company": "Broadcom Inc.",
+        "title": "Engineering Intern",
+        "years": "Jun 2015 - May 2016",
+        "descriptions": [
+          "Test multiple Broadcom Ethernet products for quality assurance and durability",
+          "Operated various electrical equipment including oscilloscopes and network analyzers"
+        ]
       }
     ],
-    "skills":[
+    "skills": [
       {
-        "name":"Git",
-        "image":"Git-logo.png"
+        "name": "Git",
+        "image": "Git-logo.png"
       },
       {
-        "name":"Github",
-        "image":"github-logo.png"
+        "name": "Github",
+        "image": "github-logo.png"
       },
       {
-        "name":"Linux",
-        "image":"linux-logo.png"
+        "name": "Linux",
+        "image": "linux-logo.png"
       },
       {
-        "name":"Heroku",
-        "image":"heroku-logo.png"
+        "name": "Heroku",
+        "image": "heroku-logo.png"
       },
       {
-        "name":"Javascript",
-        "image":"js-logo.png"
+        "name": "Javascript",
+        "image": "js-logo.png"
       },
       {
-        "name":"Node.js",
-        "image":"node-js-logo.png"
+        "name": "Node.js",
+        "image": "node-js-logo.png"
       },
       {
-        "name":"ReactJs",
-        "image":"react-logo.png"
+        "name": "ReactJs",
+        "image": "react-logo.png"
       },
       {
-        "name":"MongoDB",
-        "image":"mongodb-logo.png"
+        "name": "MongoDB",
+        "image": "mongodb-logo.png"
       },
       {
-        "name":"Python",
-        "image":"python-logo.png"
+        "name": "Python",
+        "image": "python-logo.png"
       },
       {
-        "name":"Django",
-        "image":"django-logo.png"
+        "name": "Django",
+        "image": "django-logo.png"
       },
       {
-        "name":"Flask",
-        "image":"flask-logo.png"
+        "name": "Flask",
+        "image": "flask-logo.png"
       },
       {
-        "name":"PostgreSQL",
-        "image":"postgresql-logo.png"
+        "name": "PostgreSQL",
+        "image": "postgresql-logo.png"
       }
-      
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Budgeting Application",
+        "title": "freeCodeCamp Testing Lesson",
+        "category": "Open Source Contribution",
+        "description": "A JavaScript program to teach Unit Testing with Jest and Chai for freeCodeCamp’s new curriculum",
+        "image": "testing.jpg",
+        "languages": ["JavaScript", "Chai", "Jest"],
+        "url": "https://tinyurl.com/FCC-Repo"
+      },
+      {
+        "title": "Recipe Viewer",
         "category": "Personal",
-        "description":"Website to categorize transactions when posted using the Plaid API and Web Push Notifications",
-        "image":"budgeting.jpg",
-        "languages":["mongoDB", "React", "NodeJS"],
-        "url":"https://github.com/mesporas1/budgetmatters"
+        "description": "Website that parses recipes from popular recipe websites and presents it in a mobile friendly way",
+        "image": "recipe.jpg",
+        "languages": ["JavaScript", "NodeJS", "HTML", "CSS"],
+        "url": "https://github.com/mesporas1/RecipeViewer"
       },
       {
-        "title":"Pizza Website",
-        "category": "Class",
-        "description":"Website that allows users to order menu items and admins to update menu",
-        "image":"pizza-site.jpg",
-        "languages":["Python", "Django", "HTML", "CSS"],
-        "url":"https://github.com/mesporas1/Pizza-Site"
-      },
-      {
-        "title":"Chat Application",
-        "category": "Class",
-        "description":"Single page application that allows users to talk to others in a channel utilizing Flask's Socket Library",
-        "image":"chat-project.jpg",
-        "languages":["Python", "Flask", "Javascript"],
-        "url":"https://github.com/mesporas1/chat-application"
-      },
-      {
-        "title":"Portfolio",
+        "title": "Budgeting Application",
         "category": "Personal",
-        "description":"Single page application that allows users to view my projects and work history",
-        "image":"portfolio.jpg",
-        "languages":["React", "HTML", "CSS", "Javascript"],
-        "url":"https://www.mathewesporas.com"
+        "description": "Website to categorize transactions when posted using the Plaid API and Web Push Notifications",
+        "image": "budgeting.jpg",
+        "languages": ["mongoDB", "React", "NodeJS"],
+        "url": "https://github.com/mesporas1/budgetmatters"
+      },
+      {
+        "title": "Pizza Website",
+        "category": "Class",
+        "description": "Website that allows users to order menu items and admins to update menu",
+        "image": "pizza-site.jpg",
+        "languages": ["Python", "Django", "HTML", "CSS"],
+        "url": "https://github.com/mesporas1/Pizza-Site"
+      },
+      {
+        "title": "Chat Application",
+        "category": "Class",
+        "description": "Single page application that allows users to talk to others in a channel utilizing Flask's Socket Library",
+        "image": "chat-project.jpg",
+        "languages": ["Python", "Flask", "Javascript"],
+        "url": "https://github.com/mesporas1/chat-application"
+      },
+      {
+        "title": "Portfolio",
+        "category": "Personal",
+        "description": "Single page application that allows users to view my projects and work history",
+        "image": "portfolio.jpg",
+        "languages": ["React", "HTML", "CSS", "Javascript"],
+        "url": "https://www.mathewesporas.com"
       }
     ]
   }
