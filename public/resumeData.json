@@ -2,11 +2,11 @@
   "main": {
     "firstname": "Mathew",
     "lastname": "Esporas",
-    "occupation": "Software Engineer",
+    "occupation": "Software Test Engineer",
     "image": "profilepic.jpg",
-    "bio": "I am an aspiring Software Engineer with a passion for identifying and solving problems which drives my desire to learn. I learn new technologies in order to better solve the problems that I see on a day to day basis. I have experience using a wide variety of technologies such as Python, Javascript, SQL, Linux, and more. Feel free to reach out through my email or Linkedin!",
+    "bio": "I am a Software Test Engineer with a passion for identifying and solving problems which drives my desire to learn. I have experience with manual and automated testing for both hardware and software. I specialize in Python and Bash scripting, but I like to use the right tool for the job when I can. Feel free to reach out through my email or LinkedIn!",
     "email": "mesporas1@gmail.com",
-    "website": "http://mathewesporas.com",
+    "website": "https://mathewesporas.com",
     "resumedownload": "files/MathewEsporas-Resume.pdf",
     "social": [
       {
@@ -27,25 +27,40 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here are the skills that I've used at work and in projects",
+    "skillmessage": "Here are the technologies that I've used at work and in projects",
     "education": [
       {
         "school": "University of California Irvine",
         "degree": "Bachelors of Science in Electrical Engineering",
         "graduated": "July 2016",
-        "descriptions": ["Specialized in Digital Signal Processing"]
+        "descriptions": [
+          "Specialized in Digital Signal Processing"
+        ]
       }
     ],
     "work": [
       {
+        "company": "ThinKom Solutions Inc.",
+        "title": "Software Test Engineer",
+        "years": "July 2020 to present",
+        "descriptions": [
+          "Create, maintain, and execute automated and manual test procedures for Linux based aircraft antenna systems",
+          "Develop Python and Bash scripts to automate tasks that will verify system behavior based on specifications",
+          "Drove development in test automation by demonstrating the use of Robot Framework to software team leads",
+          "Removed the need for engineers to manually log test results by integrating Robot Framework with TestRail",
+          "Reduced time to verify RESTful responses by 50% with greater accuracy by automating the process",
+          "Responsible for reproducing and troubleshooting customer issues for major aerospace companies"
+        ]
+      },
+      {
         "company": "Panasonic Avionics",
         "title": "Software Integration Test Engineer",
-        "years": "June 2016 to present",
+        "years": "June 2016 to July 2020",
         "descriptions": [
-          "Conduct end-to-end tests on Inflight Entertainment (IFE) systems and create software builds for airlines",
-          "Troubleshoot and debug software issues on Linux based embedded systems",
-          "Create automation scripts using BASH commands and PAC’s internal tools",
-          "Configure systems according to wiring diagrams and customer requirements"
+          "Conducted end-to-end tests on Inflight Entertainment systems to verify functionality prior to software build release",
+          "Troubleshooted internal and customer facing software issues on Linux based embedded systems",
+          "Create automation scripts using Linux commands and PAC’s internal tools",
+          "Generated system configuration database files according to wiring diagrams and customer requirements"
         ]
       },
       {
@@ -53,8 +68,20 @@
         "title": "Engineering Intern",
         "years": "Jun 2015 - May 2016",
         "descriptions": [
-          "Test multiple Broadcom Ethernet products for quality assurance and durability",
-          "Operated various electrical equipment including oscilloscopes and network analyzers"
+          "Ran stress tests for Ethernet devices against various cable lengths and temperature environments",
+          "Operated oscilloscopes, network analyzers, and other electrical equipment to verify device performance"
+        ]
+      }
+    ],
+    "volunteer_work": [
+      {
+        "company": "freeCodeCamp",
+        "title": "Open Source Contributor",
+        "years": "March 2020 to July 2020",
+        "descriptions": [
+          "Published a JavaScript program to freeCodeCamp’s Curriculum Expansion project to teach users the purpose and the methodology of unit testing through step by step instruction and hands on implementations",
+          "Worked with a software engineer from freeCodeCamp to understand their need and to provide a related project",
+          "Recognized by the founder of freeCodecamp as a Codebase Top Contributor in 2020"
         ]
       }
     ],
@@ -64,32 +91,16 @@
         "image": "Git-logo.png"
       },
       {
-        "name": "Github",
-        "image": "github-logo.png"
+        "name": "Robot Framework",
+        "image": "robot-framework.png"
       },
       {
         "name": "Linux",
         "image": "linux-logo.png"
       },
       {
-        "name": "Heroku",
-        "image": "heroku-logo.png"
-      },
-      {
-        "name": "Javascript",
-        "image": "js-logo.png"
-      },
-      {
-        "name": "Node.js",
-        "image": "node-js-logo.png"
-      },
-      {
-        "name": "ReactJs",
-        "image": "react-logo.png"
-      },
-      {
-        "name": "MongoDB",
-        "image": "mongodb-logo.png"
+        "name": "Bash",
+        "image": "bash.png"
       },
       {
         "name": "Python",
@@ -106,6 +117,22 @@
       {
         "name": "PostgreSQL",
         "image": "postgresql-logo.png"
+      },
+      {
+        "name": "Javascript",
+        "image": "js-logo.png"
+      },
+      {
+        "name": "Node.js",
+        "image": "node-js-logo.png"
+      },
+      {
+        "name": "ReactJs",
+        "image": "react-logo.png"
+      },
+      {
+        "name": "MongoDB",
+        "image": "mongodb-logo.png"
       }
     ]
   },
@@ -116,7 +143,11 @@
         "category": "Open Source Contribution",
         "description": "A JavaScript program to teach Unit Testing with Jest and Chai for freeCodeCamp’s new curriculum",
         "image": "testing.jpg",
-        "languages": ["JavaScript", "Chai", "Jest"],
+        "languages": [
+          "JavaScript",
+          "Chai",
+          "Jest"
+        ],
         "url": "https://tinyurl.com/FCC-Repo"
       },
       {
@@ -124,7 +155,12 @@
         "category": "Personal",
         "description": "Website that parses recipes from popular recipe websites and presents it in a mobile friendly way",
         "image": "recipe.jpg",
-        "languages": ["JavaScript", "NodeJS", "HTML", "CSS"],
+        "languages": [
+          "JavaScript",
+          "NodeJS",
+          "HTML",
+          "CSS"
+        ],
         "url": "https://github.com/mesporas1/RecipeViewer"
       },
       {
@@ -132,7 +168,11 @@
         "category": "Personal",
         "description": "Website to categorize transactions when posted using the Plaid API and Web Push Notifications",
         "image": "budgeting.jpg",
-        "languages": ["mongoDB", "React", "NodeJS"],
+        "languages": [
+          "mongoDB",
+          "React",
+          "NodeJS"
+        ],
         "url": "https://github.com/mesporas1/budgetmatters"
       },
       {
@@ -140,7 +180,12 @@
         "category": "Class",
         "description": "Website that allows users to order menu items and admins to update menu",
         "image": "pizza-site.jpg",
-        "languages": ["Python", "Django", "HTML", "CSS"],
+        "languages": [
+          "Python",
+          "Django",
+          "HTML",
+          "CSS"
+        ],
         "url": "https://github.com/mesporas1/Pizza-Site"
       },
       {
@@ -148,7 +193,11 @@
         "category": "Class",
         "description": "Single page application that allows users to talk to others in a channel utilizing Flask's Socket Library",
         "image": "chat-project.jpg",
-        "languages": ["Python", "Flask", "Javascript"],
+        "languages": [
+          "Python",
+          "Flask",
+          "Javascript"
+        ],
         "url": "https://github.com/mesporas1/chat-application"
       },
       {
@@ -156,7 +205,12 @@
         "category": "Personal",
         "description": "Single page application that allows users to view my projects and work history",
         "image": "portfolio.jpg",
-        "languages": ["React", "HTML", "CSS", "Javascript"],
+        "languages": [
+          "React",
+          "HTML",
+          "CSS",
+          "Javascript"
+        ],
         "url": "https://www.mathewesporas.com"
       }
     ]
